@@ -1,0 +1,14 @@
+C:\Users\smith\OneDrive\Documentos\VSC\RPGBattleGame\bin\Debug\net9.0\RPGBattleGame.exe
+C:\Users\smith\OneDrive\Documentos\VSC\RPGBattleGame\bin\Debug\net9.0\RPGBattleGame.deps.json
+C:\Users\smith\OneDrive\Documentos\VSC\RPGBattleGame\bin\Debug\net9.0\RPGBattleGame.runtimeconfig.json
+C:\Users\smith\OneDrive\Documentos\VSC\RPGBattleGame\bin\Debug\net9.0\RPGBattleGame.dll
+C:\Users\smith\OneDrive\Documentos\VSC\RPGBattleGame\bin\Debug\net9.0\RPGBattleGame.pdb
+C:\Users\smith\OneDrive\Documentos\VSC\RPGBattleGame\obj\Debug\net9.0\RPGBattleGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\smith\OneDrive\Documentos\VSC\RPGBattleGame\obj\Debug\net9.0\RPGBattleGame.AssemblyInfoInputs.cache
+C:\Users\smith\OneDrive\Documentos\VSC\RPGBattleGame\obj\Debug\net9.0\RPGBattleGame.AssemblyInfo.cs
+C:\Users\smith\OneDrive\Documentos\VSC\RPGBattleGame\obj\Debug\net9.0\RPGBattleGame.csproj.CoreCompileInputs.cache
+C:\Users\smith\OneDrive\Documentos\VSC\RPGBattleGame\obj\Debug\net9.0\RPGBattleGame.dll
+C:\Users\smith\OneDrive\Documentos\VSC\RPGBattleGame\obj\Debug\net9.0\refint\RPGBattleGame.dll
+C:\Users\smith\OneDrive\Documentos\VSC\RPGBattleGame\obj\Debug\net9.0\RPGBattleGame.pdb
+C:\Users\smith\OneDrive\Documentos\VSC\RPGBattleGame\obj\Debug\net9.0\RPGBattleGame.genruntimeconfig.cache
+C:\Users\smith\OneDrive\Documentos\VSC\RPGBattleGame\obj\Debug\net9.0\ref\RPGBattleGame.dll

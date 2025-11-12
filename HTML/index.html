@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        hi {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color:#34495e;
+            margin-top: 30px;
+        }
+        p {
+            line-height: 1.6;
+            color: #333;
+        }
+        .example-box {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        code {
+            background-color: #ecf0f1;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospaace;
+        }
+        ul, ol {
+            line-height: 1.8;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to HTML!</h1>
+
+    <p>It's going to be <strong>awesome</strong> teaching you the basics!</p>
+
+    <div class="example-box">
+        <h2>Common HTML Elements</h2>
+
+        <h3>Headings (h1 to h6)</h3>
+        <h1>This is an h1 heading</h1>
+        <h2>This is an h2 heading</h2>
+        <h3>This is an h3 heading</h3>
+        <h4>This is an h4 heading</h4>
+
+        <h3>Text Formatting</h3>
+        <p>You can make text <strong>bold with strong</strong>or <b>bold with b</b>.</p>
+        <p>You can make text <em>italic with em</em> or <i>italic with i</i>.</p>
+        <p>You can <u>underline text</u>or use <mark>highlighting</mark>.</p>
+
+        <h3>Lists</h3>
+        <p><strong>Unordered List (bullets):</strong></p>
+        <ul>
+            <li>First item</li>
+            <li>Second item</li>
+            <li>Third item</li>            
+        </ul>
+
+        <p><strong>Ordered List (numbers):</strong></p>
+        <ol>
+            <li>Step one</li>
+            <li>Step two</li>
+            <li>Step three</li>
+        </ol>
+
+        <h3>Links</h3>
+        <p>Here's a link to <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN HTML Documentation</a> (opens in new tab).</p>
+
+        <h3>Images</h3>
+        <p>Image use the <code>&lt;img&gt;</code> tag (no closing tag needed):</p>
+        <img src="https://via.placeholder.com/400x200/3498db/ffffff?text+Sample+Image" alt="A sample placeholder image" style="max-width: 100%; border-radius: 8px">
+
+        <h3>Line Breaks and Horizontal Rules</h3>
+        <p>This is line one.<br>This is Line Two after a break.</p>
+        <hr style="margin: 20px 0;">
+        <p>The horizontal rule above divides sections.</p>
+    </div>
+    <div class="example-box">
+        <h2>Important Tips</h2>
+        <ul>
+            <li><strong>Nesting:</strong> Tags must be properly nested. If you open a tag inside another, close it before closing the parent.</li>
+            <li><strong>Case:</strong>HTML is not case-senitive, but lowercase is standard.</li>
+            <li><strong>White scpace:</strong>Extra space and line breaks in your code don't affect display.</li>
+            <li><strong>Comments:</strong>use <code>&lt;!-- comment here --&gt;</code> to leave notes in your code.</li>            
+        </ul>        
+    </div>
+
+    <div> class="example-box">
+        <h2>The DOM Tree</h2>
+        <p>HTML create a tree struture called the Document Object Model (DOM):</p>
+        <pre style="background-color: #ecf0f1; padding: 15px; Border-radius: 5px; overflow-x: auto;">
+html (root)
+├── head
+│   ├── meta
+│   └── title
+└── body
+    ├── h1
+    ├── p
+    │   └── strong
+    └── div
+        ├── h2
+        └── p
+        </pre>
+        <p>Each element is a "node" in the tree, with parent-child relationships.</p>        
+    </div>
+    <footer> style="margin-top: 40px; padding-top: 20px; border-top: 1px; solid #ccc; text-align: center; color: #666"> 
+        <p>Practice by viewing the source code of this page! Right click and select "view Page Source" or "Inspect".</p>
+    </footer>
+</body>
+</html>
