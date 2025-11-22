@@ -1,6 +1,7 @@
 {
     "recommendations": [
         "xabikos.javascriptsnippets",
-        "mechatroner.rainbow-csv"
+        "mechatroner.rainbow-csv",
+        "vscjava.vscode-java-pack"
     ]
 }
