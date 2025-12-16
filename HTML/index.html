@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>KJ5LVN • Ham Radio Profile</title>
+<style>
+  :root {
+    --bg: #000000;
+    --panel: #111111;
+    --cyan: #00ffff;
+    --green: #39ff14;   /* Neon green */
+    --white: #ffffff;
+  }
+
+  body {
+    margin: 0;
+    background: var(--bg) url("https://static.qrz.com/n/kj5lvn/MyBackground.jpg") center/cover no-repeat fixed;
+    font-family: "Courier New", Courier, monospace;
+    color: var(--white);
+  }
+
+  .overlay {
+    background: rgba(0, 0, 0, 0.7);
+    min-height: 100vh;
+  }
+
+  .wrap {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 24px;
+  }
+
+  /* Header */
+  .header {
+    text-align: center;
+    padding: 24px;
+    border: 2px solid var(--cyan);
+    border-radius: 12px;
+    background: var(--panel);
+    box-shadow: 0 0 20px var(--cyan);
+  }
+  .callsign {
+    font-size: 3rem;
+    color: var(--green);
+    text-shadow: 0 0 10px var(--green), 0 0 20px var(--green);
+    margin: 0;
+  }
+  .subline {
+    color: var(--cyan);
+    margin: 8px 0 0 0;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+  }
+
+  /* Panels */
+  .panel {
+    margin-top: 24px;
+    padding: 20px;
+    background: var(--panel);
+    border: 2px solid var(--green);
+    border-radius: 12px;
+    box-shadow: 0 0 16px var(--green);
+  }
+  .panel h2 {
+    color: var(--green);
+    margin: 0 0 12px;
+    font-size: 1.4rem;
+    text-shadow: 0 0 8px var(--green);
+  }
+  .panel p {
+    line-height: 1.6;
+    margin: 0 0 12px;
+  }
+
+  /* Image grid */
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin-top: 12px;
+  }
+  .image-frame {
+    border: 2px solid var(--green);
+    border-radius: 10px;
+    box-shadow: 0 0 16px var(--green);
+    overflow: hidden;
+    line-height: 0;
+  }
+  .image-frame img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Links */
+  a {
+    color: yellow;
+  }
+  #social a {
+    color: var(--white);
+  }
+
+  /* Footer */
+  .footer {
+    text-align: center;
+    margin-top: 24px;
+    color: #bfbfbf;
+    font-size: 0.9rem;
+  }
+</style>
+</head>
+<body>
+  <div class="overlay">
+    <div class="wrap">
+      <!-- Header -->
+      <header class="header">
+        <h1 class="callsign">KJ5LVN</h1>
+        <p class="subline">Sapulpa, Oklahoma • CQ Zone 4 • DMR ID: 3159798</p>
+      </header>
+
+      <!-- Biography -->
+      <section class="panel" id="bio">
+        <h2>Biography</h2>
+        <p>
+          My name is David, and my amateur radio callsign is KJ5LVN. I was born in Arizona during the 1970s and spent my early years there. Later, I relocated to Oklahoma, where I attended Glenpool Schools in Glenpool.
+        </p>
+        <p>
+          Upon graduating from high school, I pursued higher education at Yavapai College, located in Prescott, Arizona. After completing my studies there, I returned to Oklahoma, and I currently reside in Sapulpa.
+        </p>
+        <p>
+          In April 2025, I was officially granted my callsign, KJ5LVN, marking the beginning of my journey in the amateur radio community. As a newcomer to this hobby, I have quickly developed a strong passion for ham radio. I enjoy learning new things every day, engaging with fellow operators, and making connections across the bands. I look forward to continuing my growth and involvement in this exciting and rewarding pastime.
+        </p>
+      </section>
+
+      <!-- My Photos -->
+      <section class="panel" id="gallery">
+        <h2>My Photos</h2>
+        <div class="image-grid">
+          <div class="image-frame">
+            <img src="https://static.qrz.com/n/kj5lvn/David_Ninja_Picture3.jpg" alt="David Ninja Picture" />
+          </div>
+          <div class="image-frame">
+            <img src="https://static.qrz.com/n/kj5lvn/Arrow_shot.JPG" alt="arrow_shot" />
+          </div>
+          <div class="image-frame">
+            <img src="https://static.qrz.com/n/kj5lvn/Graceland.JPG" alt="Me at Graceland Sign" style="object-fit: cover; transform: scale(1.25);" />
+          </div>
+          <div class="image-frame">
+            <img src="https://static.qrz.com/n/kj5lvn/_American_Ham_Radio_Operator_png.jpg" alt="American Ham Radio Operator" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact / QSL -->
+      <section class="panel" id="contact">
+        <h2>QSL and Contact</h2>
+        <p><strong>Preferred QSL:</strong> LoTW, eQSL. Paper by request.</p>
+        <p><strong>Email:</strong> <a href="mailto:smith74066@outlook.com">smith74066@outlook.com</a></p>
+        <p><strong>QRZ page:</strong> <a href="https://www.qrz.com/db/KJ5LVN" target="_blank">qrz.com/db/KJ5LVN</a></p>
+      </section>
+
+      <!-- Social Links -->
+      <section class="panel" id="social">
+        <h2>Social Links</h2>
+        <p><a href="https://www.youtube.com/@MadeinOklahoma" target="_blank">YouTube</a></p>
+        <p><a href="https://www.twitch.tv/arizona_74066" target="_blank">Twitch</a></p>
+        <p><a href="https://www.facebook.com/smith7406/" target="_blank">Facebook</a></p>
+      </section>
+
+      <!-- Build Your Own Page -->
+      <section class="panel" id="build">
+        <h2>We can build Your Page for you</h2>
+        <p>
+          If you like the look of this page and would like a custom QRZ profile built in a similar style, I’d be happy to help. I can design a clean, modern layout with great styling, biography sections, and photo galleries tailored to your station.
+        </p>
+        <p>
+          Reach out to me directly at <a href="mailto:smith74066@outlook.com">smith74066@outlook.com</a> if you’d like me to build a page like this for you.
+        </p>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        © 2025 KJ5LVN
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
